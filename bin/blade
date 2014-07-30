@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+require_relative "../lib/dyson_airblade/dryer"
+
+dryer = DysonAirblade::Dryer.new
+dryer.run
