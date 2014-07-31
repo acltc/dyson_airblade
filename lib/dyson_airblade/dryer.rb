@@ -17,11 +17,11 @@ module DysonAirblade
       puts "1"
       sleep 1
       puts
-      `say oooooooooooooooooooooooooooooooooooooooooooooooooooooooo`
+      speak
       puts "Hands still wet...."
-      `say oooooooooooooooooooooooooooooooooooooooooooooooooooooooo`
+      speak
       puts "Hands are still totally wet..."
-      `say oooooooooooooooooooooooooooooooooooooooooooooooooooooooo`
+      speak
       puts
       sleep 1
       puts "*Wipes hands on pants*"
@@ -29,7 +29,7 @@ module DysonAirblade
     end
 
     def speak
-      `say "I'm the best!"`
+      `say oooooooooooooooooooooooooooooooooooooooooooooooooooooooo`
     end
   end
 end
